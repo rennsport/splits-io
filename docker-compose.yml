@@ -1,4 +1,3 @@
-version: '3.7'
 x-server-environment:
   &server-environment
   - AWS_REGION=local
