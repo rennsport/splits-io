@@ -17,7 +17,7 @@ ENV BUNDLE_BIN $BUNDLE_PATH/bin
 # Add bundle dir to path to be able to access commands outside of `bundle exec`
 ENV PATH /app/bin:$BUNDLE_BIN:$PATH
 
-RUN gem update --system
+RUN gem update --system 3.4.22
 
 RUN mkdir -p /app
 WORKDIR /app
